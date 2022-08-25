@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Perfil</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
 
-    <ul>
+    <ul id="menu" class="fundo">
         <li>
             <a href="index.html"> Pagina Inicial </a>
         </li>
@@ -17,19 +18,29 @@
         </li>
     </ul>
 
-    <h1>Quem sou eu: </h1>
+    <h1 class="center">Quem sou eu: </h1>
 
-    <h2>Gabriel Marins Rodrigues</h2>
-    <h3>29 Anos</h3>
-    <h4>Desenvolvedor .NET Jr FullStack | Asp.net | C# | HTML | CSS</h4>
-    <p>Sou Bacharel em Direito tentando mudar de carreira e ingressante na área de TI com predisposição a aprender e crescer na área. Apaixonado por tecnologia e inovação, busco novas oportunidades para crescer e atuar como desenvolvedor Full Stack Jr. A minha pretensão em adquirir novos conhecimentos e conhecer novas tecnologias compensam o pouco tempo de experiência que tenho na área.</p>
+    <h2 class="center">Gabriel Marins Rodrigues</h2>
+    <h3 class="center">29 Anos</h3>
+    <h4 class="center">Desenvolvedor .NET Jr FullStack | Asp.net | C# | HTML | CSS</h4>
+    <div class="container">
+        <div class="borda-30">
+            <p class="center">
+                Sou Bacharel em Direito tentando mudar de carreira e ingressante na área de TI com predisposição a aprender e crescer na área. Apaixonado por tecnologia e inovação, busco novas oportunidades para crescer e atuar como desenvolvedor Full Stack Jr. A minha pretensão em adquirir novos conhecimentos e conhecer novas tecnologias compensam o pouco tempo de experiência que tenho na área.
+            </p>
+        </div>
 
-    <h2>Minha Foto</h2>
-    <img src="assets/img/Foto.png" alt="Minha Foto">
+        <div>
+            <img class="br-50 wh borda-30" src="assets/img/Foto.png" alt="Minha Foto">
+        </div>  
+    </div>
+    
 
-    <h2>Meu Video Favorito</h2>
+    <h2 class="center">Meu Video Favorito</h2>
 
-    <iframe 
+    <div class="container">
+
+        <iframe 
     width="560" 
     height="315" 
     src="https://www.youtube.com/embed/xgIQqr3E40g" 
@@ -38,6 +49,35 @@
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
     allowfullscreen
     ></iframe>
+
+    </div>
+
+    <hr>
+    
+    <footer class="center borda-30">
+
+        <div class="container2">
+
+            <a href=mailto:gabrielmarinsrodrigues@gmail.com target="_blank">
+            <img class="tmsocial" src="assets/img/envelope.png" alt="E-mail">
+            </a>
+
+            <a href="https://www.linkedin.com/in/gabriel-marins-rodrigues/">
+            <img class="tmsocial" src="assets/img/linkedin.png" alt="Linkedin">
+            </a>
+
+            <a href="https://github.com/kamui-7" target="_blank">
+            <img class="tmsocial" src="assets/img/github.png" alt="Github">
+            </a>
+
+            <a href="https://twitter.com/Kamuiseven" target="_blank">
+            <img class="tmsocial" src="assets/img/twitter.png" alt="twitter">
+            </a>
+
+        </div>
+        <p>Gabriel Marins&copy Todos os direitos reservados.</p>
+    </footer>
+    
 
 </body>
 </html>
