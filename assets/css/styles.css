@@ -1,0 +1,111 @@
+/*
+Estilos da pagina index.html
+*/
+
+.center {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-flow: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2 {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu li {
+    display: inline;
+    padding: 15px;
+}
+
+#menu li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+#menu li a:hover{
+    color: firebrick;
+}
+
+.borda-30 {
+    padding: 30px;
+}
+
+.br-50 {
+    border-radius: 50%;
+}
+
+.wh {
+    width: 300px;
+    height: 300px;
+}
+
+.tmsocial {
+    width: 30px;
+    height: 30px;
+    padding: 20px;
+}
+
+.fundo {
+    background-color: black;
+}
+
+
+/*
+Estilos da pagina contatos.html
+*/
+
+#menu li {
+    display: inline;
+    padding: 15px;
+}
+
+#menu li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+#menu li a:hover{
+    color: firebrick;
+}
+
+.center {
+    text-align: center;
+}
+
+.container2 {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.m-50 {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.ml-50 {
+    margin-left: 50px;
+}
+
+.mr-50 {
+    margin-right: 50px;
+}
+
+.mb {
+    margin-bottom: 50px;
+}
+
+.fundo {
+    background-color: black;
+}
